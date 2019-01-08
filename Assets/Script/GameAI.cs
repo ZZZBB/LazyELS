@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class GameAI : MonoBehaviour {
 
-    //尝试着对当前落子的每一种旋转变换、从左到右地摆放，产生所有摆法
+    //尝试着对当前下落方块的4种旋转，与10种坐标摆放，共四十摆放方法打分
    
     public Model model;
     public Control control;
